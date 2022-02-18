@@ -61,4 +61,4 @@ Now finally skimage's segmentation.mark_boundaries() can be applied to overlay t
 ```
 segmentation_boundary = segmentation.mark_boundaries(img_original, segmented_cell, mode='thick', color=(0, 0, 255))
 ```
-![](images/seg_boundary_overlay.jpg)
+![](images/seg_boundary_overlay.jpg)<br>
