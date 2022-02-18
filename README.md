@@ -51,7 +51,7 @@ erosion = cv2.erode(dilation, kernel, iterations=2)
 ![](images/dilated_cell.jpg)
 ![](images/eroded_cell.jpg)<br>
 # Convert Gray Values to White
-The skimage library's segmentation.mark_boundaries() will be used to find the outside of the cell. If this is performed right away, the resulting image will have boundaries drawn all over inside the cell. To solve this, binary thresholding is applied. Any pixel value greater than 0 (black) is converted to 255 (white). 
+The segmentation library of skimage will be used to find the outside of the cell. If this is performed right away, the resulting image will have boundaries drawn all over inside the cell. To solve this, binary thresholding is applied. Any pixel value greater than 0 (black) is converted to 255 (white). 
 ```
 (thresh, segmented_cell) = cv2.threshold(erosion, 1, 255, cv2.THRESH_BINARY)
 ```
