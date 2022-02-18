@@ -1,5 +1,5 @@
 # Cell Segmentation
-Cell Segmentation of a human cheek cell using Laplacian of Gaussian edge detection, morphological operators, and skimage's segmentation library.
+Cell Segmentation of a human cheek cell using Laplacian of Gaussian edge detection, morphological operators, and skimage segmentation.
 ## Starting Image (Human Cheek Cell)
 ![](images/human_cheek.jpg)<br>
 ## Laplacian of Gaussian Edge Detection
